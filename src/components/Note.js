@@ -1,12 +1,18 @@
 import React from 'react';
 
-const Note = () => {
+import notes from '../notes';
+
+const createNote = note => {
   return (
-    <div className="note">
-      <h1 className="note__title">This is the note title</h1>
-      <p className="note__content">This is the note content</p>
+    <div className="note" key={note.id}>
+      <h1 className="note__title">{note.title}</h1>
+      <p className="note__content">{note.content}</p>
     </div>
   )
+}
+
+const Note = () => {
+  return notes.map(createNote)
 };
 
 export default Note;

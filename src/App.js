@@ -7,9 +7,9 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <>
-    <Header />
-    <Note />
-    <Footer />
+      <Header />
+      <Note />
+      <Footer />
     </>
   )
 };
