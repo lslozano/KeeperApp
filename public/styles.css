@@ -50,7 +50,7 @@ body {
   position: absolute;
   right: 18px;
   bottom: -18px;
-  background: #f5ba13;
+  background: #4d4de6;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -88,17 +88,26 @@ body {
   word-wrap: break-word;
 }
 
-.note__button {
+.note__deletebutton {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  color: #ff4646;
   border: none;
   width: 36px;
   height: 36px;
   cursor: pointer;
   outline: none;
   background: #fff;
+}
+
+.note__deletebutton-hidden {
+  visibility: hidden;
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
 }
 
 .footer {
